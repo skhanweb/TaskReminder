@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff3495f5</color>
+    <color name="colorPrimaryDark">#ff3f90c5</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#ff74c2ff</color>
+    <color name="colorAccent">#ff79c2ff</color>
+
+   <!-- <color name="tabsScrollColor">#26e1ffff</color>!-->
+    <!--For Tabs!-->
+   <!-- <color name="colorPrimary">#125688</color>
+    <color name="colorPrimaryDark">#125688</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>!-->
+
+       <!-- <color name="colorPrimary">#F50057</color>
+        <color name="colorPrimaryDark">#C51162</color>
+        <color name="textColorPrimary">#FFFFFF</color>
+        <color name="windowBackground">#FFFFFF</color>
+        <color name="navigationBarColor">#000000</color>
+        <color name="colorAccent">#FF80AB</color>!-->
+</resources>

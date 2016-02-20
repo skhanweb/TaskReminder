@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="example.com.task_reminder.Sign_Up"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Reminder Me"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:id="@+id/txtTaskReminder"
+            android:textSize="20pt"
+            android:layout_gravity="center_horizontal|top"
+            android:typeface="serif" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sign Up"
+            android:id="@+id/txtSignUp"
+            android:textSize="15pt"
+            android:layout_gravity="center_horizontal|top"
+            android:typeface="serif" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textSize="10pt"
+                android:typeface="serif" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="12"
+                android:textColor="#fff"
+                android:focusableInTouchMode="true"
+                android:id="@+id/SignUpEmail"
+                android:padding="20dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textSize="10pt"
+                android:typeface="serif" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="12"
+                android:textColor="#fff"
+                android:password="true"
+                android:focusableInTouchMode="true"
+                android:id="@+id/editPassword"
+                android:padding="20dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="Confirm Password "
+                android:textSize="10pt"
+                android:typeface="serif" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:password="true"
+                android:inputType="textPassword"
+                android:textColor="#fff"
+                android:focusableInTouchMode="true"
+                android:ems="14"
+                android:id="@+id/editConfirmPassword"
+                android:padding="20dp" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Sign Up"
+            android:textSize="10pt"
+            android:background="@drawable/mybutton"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:id="@+id/btnSignup"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

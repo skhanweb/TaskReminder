@@ -1,0 +1,172 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.com.ViewTasks.Task_Description"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="#fff">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/Title"
+       android:text="Title: "
+       android:padding="15dp"
+       android:textSize="15dp"
+       style="@style/Base.DialogWindowTitle.AppCompat"
+       android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitle"
+        android:text="txtTitle "
+        android:layout_alignBaseline="@+id/Title"
+        android:textSize="20dp"
+        android:layout_marginLeft="16pt"
+        style="@style/Base.DialogWindowTitle.AppCompat"
+        android:typeface="serif"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Date"
+            android:text="Date: "
+            android:padding="15dp"
+            android:textSize="15dp"
+            style="@style/Base.DialogWindowTitle.AppCompat"
+            android:typeface="serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDate"
+            android:text="txtDate "
+            android:layout_alignBaseline="@+id/Date"
+            android:layout_marginLeft="16pt"
+            style="@style/Base.DialogWindowTitle.AppCompat"
+            android:typeface="serif" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Time"
+                android:text="Time: "
+                android:padding="15dp"
+                android:textSize="15dp"
+                style="@style/Base.DialogWindowTitle.AppCompat"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTime"
+                android:text="txtTime "
+                android:layout_alignBaseline="@+id/Time"
+                android:layout_marginLeft="16pt"
+                style="@style/Base.DialogWindowTitle.AppCompat"
+                android:typeface="serif" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="@style/Base.DialogWindowTitle.AppCompat">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Description"
+                android:text="Description: "
+                android:padding="15dp"
+                android:textSize="15dp"
+                style="@style/Base.DialogWindowTitle.AppCompat"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDescription"
+                android:text="txtDescription "
+                android:layout_alignBaseline="@+id/Description"
+                android:layout_marginLeft="16pt"
+                android:typeface="serif"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.07">
+
+           <!-- <ImageButton
+                android:layout_marginTop="20dp"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:background="@drawable/edit"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/EditImage"/>
+
+            <ImageButton
+                android:layout_marginTop="20dp"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:gravity="right"
+                android:baselineAlignBottom="true"
+                android:background="@drawable/delete"
+                android:layout_marginLeft="0dp"
+                android:id="@+id/DeleteImage"/>!-->
+
+            <!--<Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/EditBtn"
+                android:text="Edit"
+                android:background="#ff6796ff"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:typeface="serif" />!-->
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/DeleteBtn"
+                android:layout_margin="20dp"
+                android:text="Delete"
+                android:background="@drawable/mybutton"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Task Reminder</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_Category">Category</string>
+    <!--<string name="nav_item_View">View</string>!-->
+    <string name="nav_item_Create">Create</string>
+   <!-- <string name="nav_item_Settings">Settings</string>!-->
+    <string name="nav_item_Logout">Logout</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+
+        <item>@string/nav_item_Category</item>
+       <!-- <item>@string/nav_item_View</item>!-->
+        <item>@string/nav_item_Create</item>
+       <!-- <item>@string/nav_item_Settings</item>!-->
+        <item>@string/nav_item_Logout</item>
+    </string-array>
+
+    <string name="title_Category">Category</string>
+    <string name="title_View">View</string>
+    <string name="title_Create">Create</string>
+    <string name="title_EditTask">Logout</string>
+    <string name="title_Settings">Settings</string>
+    <string name="title_Logout">Logout</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Create task or category in create tab!-->
+    <string name="New_Task">New Task</string>
+    <string name="New_Category">New Category</string>
+    <string name="SaveTask">Save</string>
+    <string name="CancelTask">Cancel</string>
+    <string name="Select_Date">Select Date</string>
+    <string name="Select_Time">Select Time</string>
+    <string name="Select_Category">Select Category</string>
+
+    <!--Create Category in create tab!-->
+    <string name="SaveCat">Save</string>
+    <string name="CancelCat">Cancel</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="title_activity_navigationdrawer">navigationdrawer</string>
+    <string name="title_activity_user_authentication__google">UserAuthentication_Google</string>
+    <string name="title_activity_task_description">TaskDescription</string>
+    <string name="title_activity_alarm__task__screen">Alarm_Task_Screen</string>
+    <string name="title_activity_sign__in">Sign_In</string>
+    <string name="title_activity_sign__up">Sign_Up</string>
+
+</resources>

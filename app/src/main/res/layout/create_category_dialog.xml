@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcccccc">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editCreateCategory"
+        android:hint="Enter New Category"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:typeface="serif" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_below="@id/editCreateCategory">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSaveCategory"
+            android:text="@string/SaveCat"
+            android:typeface="serif"
+            android:textColor="#fff"
+            android:background="@drawable/mybutton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btnCancelCategory"
+            android:text="@string/CancelCat"
+            android:typeface="serif"
+            android:textColor="#fff"
+            android:background="@drawable/mybutton" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

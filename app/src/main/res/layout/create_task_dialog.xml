@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcccccc">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Task"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editNewtask"
+        android:textStyle="bold"
+        android:typeface="serif" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description"
+        android:gravity="center"
+        android:id="@+id/editTaskDesc"
+        android:maxLength="40"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_below="@+id/editNewtask"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/editTaskDesc"
+        android:id="@+id/llSelectCategory">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Select Category:"
+            android:id="@+id/SelectCategory"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSelectCategory"
+            android:text=""
+            android:layout_alignBaseline="@+id/SelectCategory"
+            android:padding="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="0dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textStyle="bold"
+            android:typeface="serif" />/>
+
+    <Button
+        android:layout_width="46dp"
+        android:layout_height="33dp"
+        android:id="@+id/btnSelect_Category"
+        android:layout_alignBaseline="@+id/txtSelectCategory"
+        android:padding="0dp"
+        android:text="+"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:focusable="false"
+        android:layout_marginLeft="30dp"
+        android:focusableInTouchMode="false"
+        android:background="@drawable/mybutton"
+        android:typeface="serif"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/llSelectCategory"
+        android:id="@+id/llSelectDate">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Select Date:"
+            android:id="@+id/txtSelectDate"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDate"
+            android:text=""
+            android:layout_alignBaseline="@+id/txtSelectDate"
+            android:padding="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textStyle="bold"
+            android:typeface="serif" />/>
+
+
+        <Button
+            android:layout_width="46dp"
+            android:layout_height="33dp"
+            android:id="@+id/btnDatePicker"
+            android:layout_alignBaseline="@+id/txtDate"
+            android:padding="0dp"
+            android:text="+"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="0dp"
+            android:focusable="false"
+            android:layout_marginLeft="30dp"
+            android:focusableInTouchMode="false"
+            android:background="@drawable/mybutton"
+            android:typeface="serif"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/llSelectDate"
+        android:id="@+id/llSelectTime">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Select Date:"
+            android:id="@+id/Time"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTime"
+            android:text=""
+            android:layout_alignBaseline="@+id/Time"
+            android:padding="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textStyle="bold"
+            android:typeface="serif" />/>
+
+        <Button
+            android:layout_width="46dp"
+            android:layout_height="33dp"
+            android:id="@+id/btnTimePicker"
+            android:layout_alignBaseline="@+id/txtTime"
+            android:padding="0dp"
+            android:text="+"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="0dp"
+            android:focusable="false"
+            android:layout_marginLeft="30dp"
+            android:focusableInTouchMode="false"
+            android:background="@drawable/mybutton"
+            android:typeface="serif"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:id="@+id/llbtns"
+        android:layout_below="@+id/llSelectTime">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSaveTask"
+            android:layout_margin="20dp"
+            android:text="@string/SaveTask"
+            android:background="@drawable/mybutton"
+            android:typeface="serif"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCancelTask"
+            android:layout_margin="20dp"
+            android:text="@string/CancelTask"
+            android:background="@drawable/mybutton"
+            android:typeface="serif"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

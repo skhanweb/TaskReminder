@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#fff"
+    tools:context="example.com.task_reminder.Alarm_Task_Screen">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clockImage"
+        android:background="@drawable/alarm_clock"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTaskTitle"
+        android:text="title"
+        android:layout_below="@+id/clockImage"
+        android:gravity="center"
+        android:textSize="20pt"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:capitalize="words" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTaskDate"
+        android:text="date"
+        android:layout_below="@+id/txtTaskTitle"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTaskTime"
+        android:text="time"
+        android:layout_below="@+id/txtTaskDate"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:typeface="serif" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:id="@+id/btnStopAlarm"
+        android:background="@drawable/mybutton"
+        android:textColor="#fff"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtTaskTime"
+        android:padding="5dp"/>
+
+</RelativeLayout>

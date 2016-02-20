@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-a8948ff72c4f97d9e41569b188768ae4eef36768.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\libs\firebase-client-android-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="3a97e2865335003f603ccf5c4deecab43962feae">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.5.0-ef22e235d444879e0788dead5bea0c019f7d3512.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-91d2cacaa7834e490b6cc6dd8598a2185e5d3dea.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-afd2a8f434d7262514dff30748d35f8d5dd4eb40.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-2554458ee40a461f3bd4ea0b4472a9559aab2666.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-b15bbadb2cbecac94bbd9ee7e7cb647c963eedfa.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-8388c5b2a80cdc4d7247ce94c8216fa648af304a.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-053873dd9519713b2aeb75c837123da07ed00263.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-272ae7e75e2bf57c5e25753a1339be578e7c18a6.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-462f698ce635e30bc978506be3d82904b36ee793.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-c09b04081f24aadfac944bebe60f7c3dc956b373.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-0817072f0c769c242b00f53c2c8e0b987957915f.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-ba0788fc8ee34a76cfc2954fb693df9e0e6abfa6.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-06debb047a1ee6a298235d4796ff4593b4d5c1a2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Toshiba\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-86da55adb0d35d4f31ca9cfb51ec00dfb61292f5.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-18ba0d7080e9159c2e148a600c69a6084f2499f1.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-a2201ade995230243812fa68fe0594b79ba8fad8.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-b29273b5ac1af732414abf26edce274dc8513835.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-9159ebdd4a0ab777b58e2da5cb80b83b8195e3b6.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-11d886d1df63ffb950c81c0fb707d8e0996b9f5c.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-307256e91ed3592552cf3d44d6d7e88e1304b34b.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-6d2d509cc19266f0a64a7866afb511b5b2345af8.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-f7224829dbcbebb144f9c5bd053e92194c16ab01.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-66642aea2e1dbc988f9dc048e430c69fa38ca5f2.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-b620986edaf051412fbedc42ec89e204fc25b684.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-364ced62eb22b51e6bb4a7656885ad4b1388d55b.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-72cf1a40edd50d69361e0290e3eb69f4c734ad97.jar" />
+    </item>
+    <item
+        jar="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="E:\Saud\Programming\Android\Task_Reminder\app\build\intermediates\pre-dexed\debug\classes-41e1c63a1f7fcd59cba2d1075d4e151bf811d755.jar" />
+    </item>
+
+</items>
